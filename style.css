@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+.main-head {
+  background-color: aliceblue;
+  border-bottom: 2px solid blueviolet;
+}
+
+h1 {
+  font-size: 26px;
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.6;
+}
+h4 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+li {
+  font-size: 20px;
+}
+.Copyright {
+  font-size: 14px;
+  font-weight: bold;
+}
+#pic-dots {
+  list-style: none;
+}
+a:link {
+  color: rgb(22, 44, 168);
+  text-decoration: none;
+}
+a:visited {
+  color: brown;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+a:active {
+  background-color: blueviolet;
+  color: greenyellow;
+}
